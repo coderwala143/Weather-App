@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* background-color: blueviolet; */
+    background-image: url(img2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: rgba(255, 255, 255, 0.475); */
+    /* width: 100; */
+    /* filter: blur(); */
+    /* filter: ; */
+}
+
+#form{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+#form input{
+    width: 20%;
+    padding: 10px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 18px;
+    margin-top: 10px;
+    outline: none;
+}
+
+.temp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.7rem;
+
+}
+.temp > img{
+    width: 60px;
+}
+
+.main{
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(255,255,255,0.4341386212688201) 69%, rgba(0,212,255,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 40%;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.425);
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    filter: contrast(200%);
+    gap: 20px;
+
+
+}
+
+.leftBox{
+    width: 30%;
+    background-color: rgba(245, 245, 220, 0.221);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 20px white;
+}
+
+.right{
+    width: 100%;
+    width: 100%;
+    /* border:1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.forecast{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+}
+
+.forecastDay{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: rgba(245, 245, 220, 0.221);
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px white;
+
+}
